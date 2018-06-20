@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{5129D7B8-8E33-4F0F-9072-FC39426C859A}</ProjectGuid>
+    <RootNamespace>OS3</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)\..;$(ProjectDir)\..\..;$(ProjectDir)\..\..\..\..\BSP\Windows;$(ProjectDir)\..\..\..\..\..\Micrium\Software\uC-CPU;$(ProjectDir)\..\..\..\..\..\Micrium\Software\uC-CPU\Win32\Visual_Studio;$(ProjectDir)\..\..\..\..\..\Micrium\Software\uC-LIB;$(ProjectDir)\..\..\..\..\..\Micrium\Software\uCOS-III\Ports\Win32\Visual_Studio;$(ProjectDir)\..\..\..\..\..\Micrium\Software\uCOS-III\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uC-CPU\cpu_cache.h" />
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uC-CPU\cpu_core.h" />
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uC-CPU\cpu_def.h" />
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uC-CPU\Win32\Visual_Studio\cpu.h" />
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uC-LIB\lib_ascii.h" />
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uC-LIB\lib_def.h" />
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uC-LIB\lib_math.h" />
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uC-LIB\lib_mem.h" />
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uC-LIB\lib_str.h" />
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uCOS-III\Ports\Win32\Visual_Studio\os_cpu.h" />
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os.h" />
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_trace.h" />
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_type.h" />
+    <ClInclude Include="..\..\app_cfg.h" />
+    <ClInclude Include="..\..\cpu_cfg.h" />
+    <ClInclude Include="..\..\lib_cfg.h" />
+    <ClInclude Include="..\os_app_hooks.h" />
+    <ClInclude Include="..\os_cfg.h" />
+    <ClInclude Include="..\os_cfg_app.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uC-CPU\cpu_core.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uC-CPU\Win32\Visual_Studio\cpu_c.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uC-LIB\lib_ascii.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uC-LIB\lib_math.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uC-LIB\lib_mem.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uC-LIB\lib_str.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Ports\Win32\Visual_Studio\os_cpu_c.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_cfg_app.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_core.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_dbg.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_flag.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_mem.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_mon.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_msg.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_mutex.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_prio.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_q.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_sem.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_stat.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_task.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_tick.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_time.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_tmr.c" />
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_var.c" />
+    <ClCompile Include="..\..\..\..\BSP\Windows\bsp_cpu.c" />
+    <ClCompile Include="..\main.c" />
+    <ClCompile Include="..\os_app_hooks.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

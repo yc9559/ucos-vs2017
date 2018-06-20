@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Micrium">
+      <UniqueIdentifier>{a2339897-4d25-4d5e-a60c-a12e9ef583fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Micrium\Software">
+      <UniqueIdentifier>{57d33293-2187-4c8e-a28e-72d4258330b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Micrium\Software\uC-CPU">
+      <UniqueIdentifier>{725e914b-806d-44be-bac8-018293134215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Micrium\Software\uC-CPU\Win32">
+      <UniqueIdentifier>{7ec36d8b-5377-42b6-b715-62449d44c0a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Micrium\Software\uC-CPU\Win32\Visual_Studio">
+      <UniqueIdentifier>{14db09c9-2740-4516-b313-e441e0a290d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Micrium\Software\uC-LIB">
+      <UniqueIdentifier>{2ecfd30f-256d-4a7f-8f22-504d762d5411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Micrium\Software\uCOS-III">
+      <UniqueIdentifier>{38c53079-bfbe-4f08-9b52-73bc42ac1203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Micrium\Software\uCOS-III\Source">
+      <UniqueIdentifier>{bde7e2a8-dd0b-4180-83a2-e1bba9d5353c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Micrium\Software\uCOS-III\Ports">
+      <UniqueIdentifier>{5d9a5a0d-eef5-4422-843c-32d4f181fd0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Micrium\Software\uCOS-III\Ports\Win32">
+      <UniqueIdentifier>{23bd56d6-7a0a-41d4-9a16-6e79b45264c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Micrium\Software\uCOS-III\Ports\Win32\Visual_Studio">
+      <UniqueIdentifier>{834afdea-89de-41da-b649-4b3a7c7fd82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Microsoft">
+      <UniqueIdentifier>{537012ac-95d3-4a28-a3ad-ba8a21b8f7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Microsoft\Windows">
+      <UniqueIdentifier>{4d5298c5-d5b8-4d9d-9026-0afe074df66d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Microsoft\Windows\Kernel">
+      <UniqueIdentifier>{9c51cede-cb2b-45ea-a696-04ce3fa73b48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Microsoft\Windows\Kernel\OS3">
+      <UniqueIdentifier>{d85fbb00-870b-4146-a578-622e66d734db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Microsoft\BSP">
+      <UniqueIdentifier>{5ae23f48-55e9-4323-bdac-387cc1004a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Microsoft\BSP\Windows">
+      <UniqueIdentifier>{7ee80a2b-29af-4d74-8064-681ee44e3e5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\app_cfg.h">
+      <Filter>Source Files\Microsoft\Windows\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpu_cfg.h">
+      <Filter>Source Files\Microsoft\Windows\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lib_cfg.h">
+      <Filter>Source Files\Microsoft\Windows\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uC-CPU\cpu_cache.h">
+      <Filter>Source Files\Micrium\Software\uC-CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uC-CPU\cpu_core.h">
+      <Filter>Source Files\Micrium\Software\uC-CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uC-CPU\cpu_def.h">
+      <Filter>Source Files\Micrium\Software\uC-CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uC-CPU\Win32\Visual_Studio\cpu.h">
+      <Filter>Source Files\Micrium\Software\uC-CPU\Win32\Visual_Studio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uC-LIB\lib_ascii.h">
+      <Filter>Source Files\Micrium\Software\uC-LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uC-LIB\lib_def.h">
+      <Filter>Source Files\Micrium\Software\uC-LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uC-LIB\lib_math.h">
+      <Filter>Source Files\Micrium\Software\uC-LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uC-LIB\lib_mem.h">
+      <Filter>Source Files\Micrium\Software\uC-LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uC-LIB\lib_str.h">
+      <Filter>Source Files\Micrium\Software\uC-LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_trace.h">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_type.h">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os.h">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Micrium\Software\uCOS-III\Ports\Win32\Visual_Studio\os_cpu.h">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Ports\Win32\Visual_Studio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\os_app_hooks.h">
+      <Filter>Source Files\Microsoft\Windows\Kernel\OS3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\os_cfg.h">
+      <Filter>Source Files\Microsoft\Windows\Kernel\OS3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\os_cfg_app.h">
+      <Filter>Source Files\Microsoft\Windows\Kernel\OS3</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uC-CPU\cpu_core.c">
+      <Filter>Source Files\Micrium\Software\uC-CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uC-CPU\Win32\Visual_Studio\cpu_c.c">
+      <Filter>Source Files\Micrium\Software\uC-CPU\Win32\Visual_Studio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uC-LIB\lib_math.c">
+      <Filter>Source Files\Micrium\Software\uC-LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uC-LIB\lib_mem.c">
+      <Filter>Source Files\Micrium\Software\uC-LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uC-LIB\lib_str.c">
+      <Filter>Source Files\Micrium\Software\uC-LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uC-LIB\lib_ascii.c">
+      <Filter>Source Files\Micrium\Software\uC-LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_cfg_app.c">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_core.c">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_dbg.c">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_flag.c">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_mem.c">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_mon.c">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_msg.c">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_mutex.c">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_prio.c">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_q.c">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_sem.c">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_stat.c">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_task.c">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_tick.c">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_time.c">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_tmr.c">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Source\os_var.c">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Micrium\Software\uCOS-III\Ports\Win32\Visual_Studio\os_cpu_c.c">
+      <Filter>Source Files\Micrium\Software\uCOS-III\Ports\Win32\Visual_Studio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\main.c">
+      <Filter>Source Files\Microsoft\Windows\Kernel\OS3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\os_app_hooks.c">
+      <Filter>Source Files\Microsoft\Windows\Kernel\OS3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\BSP\Windows\bsp_cpu.c">
+      <Filter>Source Files\Microsoft\BSP\Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
